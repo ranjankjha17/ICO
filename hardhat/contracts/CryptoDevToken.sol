@@ -43,7 +43,7 @@ contract CryptoDevToken is ERC20,Ownable{
 
         require(amount > 0,"You have already claimed all the tokens");
 
-        _mint(msg.sender,amount*tokenPerNFT);
+        _mint(msg.sender,amount*tokensPerNFT);
     }
 
     function mint(uint256 amount) public payable{
