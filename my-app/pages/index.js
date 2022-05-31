@@ -7,7 +7,7 @@ import Web3Modal from "web3modal";
 import {BigNumber,utils} from "ethers";
 import {TOKEN_CONTRACT_ADDRESS, TOKEN_CONTRACT_ABI, NFT_CONTRACT_ADDRESS, NFT_CONTRACT_ABI} from '../constants/index'
 
-//30/5/22
+//31/5/22
 export default function Home() {
 const zero=BigNumber.from(0);
 const [walletConnected,setWalletConnected]=useState(false);
