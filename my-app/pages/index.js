@@ -10,6 +10,7 @@ import {
 } from "../constants";
 import styles from "../styles/Home.module.css";
 
+//19/6/22
 export default function Home() {
   // Create a BigNumber `0`
   const zero = BigNumber.from(0);
